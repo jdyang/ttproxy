@@ -1,0 +1,149 @@
+<ttproxy>
+<log>
+  <file>/tmp/ttproxy</file>
+  <rank>DEBUG</rank>
+</log>
+<partner>
+  <file>/home/ttproxy/etc/ttp.pid</file>
+</partner>
+<proxy>
+  <ttconnum>10</ttconnum>
+  <threadnum>10</threadnum>
+</proxy>
+<tcp>
+  <ip>0.0.0.0</ip>
+  <port>20000</port>
+</tcp>
+<udp>
+  <ip>127.0.0.1</ip>
+  <port>20000</port>
+</udp>
+<ttc>
+  <table>message_content</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1954</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>message_from</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1955</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>message_to</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1956</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>message_system</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1957</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>feed_content</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1940</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>feed_index</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1941</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>feed_object</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1942</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>relation_stranger</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1970</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>relation_stranger</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1970</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>relation_to</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1927</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>relation_from</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1928</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>game_money_log</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1936</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>game_money_prepay</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1933</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>game_money_SerialNo</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1932</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>game_money</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1912</port>
+    <name>test</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>footprint_visitor</table>
+  <tt>
+    <ip>10.66.48.245</ip>
+    <port>1943</port>
+    <name>test</name>
+  </tt>
+</ttc>
+</ttproxy>

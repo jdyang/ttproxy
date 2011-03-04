@@ -1,0 +1,47 @@
+<ttproxy>
+<log>
+  <file>/tmp/ttproxy</file>
+  <rank>DEBUG</rank>
+</log>
+<partner>
+  <file>/home/ttproxy/etc/ttp.pid</file>
+</partner>
+<proxy>
+  <ttconnum>10</ttconnum>
+  <threadnum>10</threadnum>
+</proxy>
+<tcp>
+  <ip>0.0.0.0</ip>
+  <port>20000</port>
+</tcp>
+<udp>
+  <ip>127.0.0.1</ip>
+  <port>20000</port>
+</udp>
+<ttc>
+  <table>user_group</table>
+  <tt>
+    <ip>127.0.0.1</ip>
+    <port>1978</port>
+    <name>test</name>
+  </tt>
+  <tt>
+    <ip>127.0.0.1</ip>
+    <port>1979</port>
+    <name>test1</name>
+  </tt>
+</ttc>
+<ttc>
+  <table>group_user</table>
+  <tt>
+    <ip>127.0.0.1</ip>
+    <port>1980</port>
+    <name>test</name>
+  </tt>
+  <tt>
+    <ip>127.0.0.1</ip>
+    <port>1981</port>
+    <name>test1</name>
+  </tt>
+</ttc>
+</ttproxy>
